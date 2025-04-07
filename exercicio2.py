@@ -16,3 +16,8 @@ def mesclaIntervalos(intervalos):
 print(mesclaIntervalos([(1, 3), (2, 6), (8, 10), (15, 18)]))
 print(mesclaIntervalos([(1, 4), (4, 5)]))
 print(mesclaIntervalos([(1, 4), (2, 3), (5, 7), (6, 8)]))
+
+intervalos = input("Digite os intervalos: ")
+while intervalos != "":
+    print(mesclaIntervalos(intervalos))
+    intervalos = input("Digite os intervalos: ")

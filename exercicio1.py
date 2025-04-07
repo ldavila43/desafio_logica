@@ -18,3 +18,8 @@ def primeiroNaoRepete(texto):
 print(primeiroNaoRepete("abacabad"))
 print(primeiroNaoRepete("aabbcc"))
 print(primeiroNaoRepete(""))
+
+texto = input("Digite um texto: ")
+while texto != "":
+    print(primeiroNaoRepete(texto))
+    texto = input("Digite um texto: ")
